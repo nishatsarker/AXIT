@@ -1,0 +1,345 @@
+/******************************************
+Global CSS
+********************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/******************************************
+Header CSS Section
+********************************************/
+header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 0px;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #c0baba !important;
+    
+}
+.nav-item, .nav-item-3{
+    margin-right:none !important;
+}
+.nav-link:hover{
+    color: #f98837 !important;
+}
+
+/******************************************
+Banner Section CSS Section
+********************************************/
+.banner{
+    width: 100%;
+    background-image: url("../imgs/background_img.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-text{
+    height: 85vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text h1{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 80%;
+    padding: 30px 0px;
+}
+.banner-text .line{
+    height: 2px;
+    width: 10%;
+    background-color: white;
+} 
+.banner-text p{
+    font-family: 'Raleway', sans-serif;
+    color:  #c0baba;
+    width: 70%;
+    padding: 30px 0px 20px 0px;
+}
+.banner-text button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 10px 35px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+.banner-text button:hover{
+    color:#f98837;
+}
+
+.banner-form{
+    height: 85vh;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.card{
+    border: none;
+    margin: 60px 0px 60px 60px;
+}
+.banner-form .card-header{
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
+.banner-form span{
+    color: #f98837;
+}
+.banner-form .card-body{
+    width: 100%;
+    padding: 1rem 2rem 2rem 2rem;
+    font-family: 'Raleway', sans-serif;
+    color:  #c0baba;
+}
+
+
+.banner-form .card-body input{
+    
+    width: 100%;
+    padding: 30px 10px 10px 10px;
+    border: none;
+    border-bottom: 1px solid #dedede;
+}
+.banner-form .card-body input::placeholder{
+    padding-left: 10px;
+}
+.banner-form .card-body input:focus{
+    outline: none;
+}
+.banner-form .card-footer{
+    width: 100%;
+    background-color: #f98837;
+    text-align: center;
+    height: 60px;
+}
+.banner-form .card-footer button{
+    font-size: 22px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 3px 0px;
+}
+.banner-form .card-footer button:hover{
+    font-weight: bold;
+}
+.banner-form .card-footer button:focus{
+    outline: none;
+}
+
+/******************************************
+Social Media Section CSS Section
+********************************************/
+.social-icon{
+    width: 100%;
+    padding: 10px 0px 5px 0px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(182, 178, 178);
+    box-shadow: 0px -4px 13px;
+}
+
+.social-icon .col-md-4 h3{
+    font-weight: bold;
+}
+.social-icon .col-md-4 p{
+    font-family: 'Raleway', sans-serif;
+    color:  #86878b;  
+}
+.social-icon .col-md-8 ul{
+    margin-top: 24px;
+    text-align: right;
+}
+
+.social-icon .col-md-8 li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon .col-md-8 li a{
+    color: #cccccc;
+    margin: 0px 0px 0px 50px;
+}
+.social-icon .col-md-8 li a:hover{
+    color: #f98837;
+}
+
+/******************************************
+Tab Section CSS Section
+********************************************/
+.tab-section{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 80px 0px;
+}
+.tab-section .col-md-2 ul{
+    padding-left:0px ;
+}
+.tab-section .col-md-2 ul li{
+    list-style: none;
+    height: 110px;
+    text-align: center;
+    line-height: 110px;
+    background-color: #333333;
+    margin-bottom: 1px;
+    width: 60%;
+}
+.tab-section .col-md-2 ul li a{
+    color: white;
+}
+.tab-1{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.tab-3{
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.active-color{
+    background-color: #f98837 !important;
+}   
+.tab-section .col-md-6 p{
+    font-family: 'Open Sans', sans-serif;
+    color:  #86878b;
+    width: 87%;
+    padding-top: 30px;;  
+}
+.tab-section .col-md-6 button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 10px 35px;
+    background-color: #f98837;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.tab-section .col-md-6 button:hover{
+    background-color: rgb(52, 165, 231);
+}
+
+/******************************************
+sub-list Section CSS Section
+********************************************/
+.sub-list{
+    width: 100%;
+    padding: 80px 0px;   
+}
+.sub-list .col-md-7{
+    width: 50%;
+}
+.sub-list .col-md-7 img{
+    margin-left: -34px !important;
+}
+.sub-list p{
+    font-family: 'Open Sans', sans-serif;
+    color:  #86878b;
+}
+.sub-list .line{
+    height: 2px;
+    width: 13%;
+    background-color: #f98837;
+    margin: 20px 0px;
+}
+.sub-list .col-md-5 .sub-title{
+    margin-top: 30px;
+}
+.sub-list .col-md-5 .sub-title ul{
+    padding-left: 0px;
+}
+.sub-list .col-md-5 .sub-title ul li{
+    list-style: none;
+}
+.sub-list .sub-title ul li i{
+    color: #f98837;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #f98837;
+    border-radius: 100px;
+}
+/******************************************
+Standard Picture Section CSS Section
+********************************************/
+.stabdard-picture{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 80px 0px;
+}
+.stabdard-picture .line{
+    height: 3px;
+    width: 13%;
+    background-color: #f98837;
+    margin: 20px 0px;
+}
+.stabdard-picture p{
+    font-family: 'Open Sans', sans-serif;
+    color:  #86878b;
+    margin-top: 30px;
+}
+.stabdard-picture .col-md-7{
+    text-align: right;
+}
+/******************************************
+Service Section CSS Section
+********************************************/
+.service-area{
+    width: 100%;
+    padding: 80px 0px;
+}
+.service-area .service{
+    text-align: center;
+}
+.service-area .service h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+.service-area .line{
+    height: 3px;
+    width: 11%;
+    background-color: #f98837;
+    margin: 25px 579px;
+}
+.service-area .service p{
+    font-family: 'Open Sans', sans-serif;
+    color:  #86878b;
+}
+.service-area .service .col-md-4 ul{
+    padding-left: 0px;
+}
+.service-area .service .col-md-4 ul li{
+    margin-top: 30px;
+    list-style: none;
+}
+.service-area ul li i{
+    font-size: 20px;
+    color: #f98837;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 16px;
+    border: 2px solid #f98837;
+    border-radius: 100px;
+}
+.service-area .service .col-md-4 h6{
+    font-weight: bold;
+    margin:20px 0px
+}
