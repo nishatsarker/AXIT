@@ -258,6 +258,10 @@ sub-list Section CSS Section
     background-color: #f98837;
     margin: 20px 0px;
 }
+.sub-list .col-md-5 {
+    margin-left: 130px;
+    width: 35%;
+}
 .sub-list .col-md-5 .sub-title{
     margin-top: 30px;
 }
@@ -342,4 +346,199 @@ Service Section CSS Section
 .service-area .service .col-md-4 h6{
     font-weight: bold;
     margin:20px 0px
+}
+/******************************************
+Price Section CSS Section
+********************************************/
+.price-section{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px 0px;
+}
+.price-section .price-details{
+    text-align: center;
+}
+.price-section .price{
+    text-align: center;
+}
+.price-section .price h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.price-section .line{
+    height: 3px;
+    width: 11%;
+    background-color: #f98837;
+    margin: 25px 579px;
+}
+.card-header{
+    background-color: #333333 !important;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.price-section .p1{
+    padding-top: 35px;
+    font-size: 35px;
+    background-color: #333333;
+    color: white;
+    border-bottom: 4px solid #f98837;
+}
+.price-section .p1 span{
+    font-size: 65px !important;
+}
+.price-section .p1 p{
+    font-size: 14px;
+}
+.price-section .monthly-payment{
+    background-color: #f98837;
+    color: white;
+} 
+.popular{
+    margin-top: -39px;
+}
+/******************************************
+Download Section CSS 
+********************************************/
+.download-section{
+    width: 100%;
+    background-image: url(../imgs/stylish.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.download-section .download{
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+.download-section .download h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+.download-section .line{
+    height: 3px;
+    width: 11%;
+    background-color: #ffffff;
+    margin: 25px 579px;
+}
+.download-section .download  button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 10px 35px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 1px solid white;
+}
+.download-section .download  button:hover{
+    color:  #f98837;
+    border-radius: 5px;
+}
+.download-section .download p{
+    font-family: 'Open Sans', sans-serif;
+    color:  #ffffff;
+}
+/******************************************
+Contact-us Section CSS 
+********************************************/
+.contact-us{
+    width: 100%;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
+.contact-us .contact-despription{
+    text-align: center;
+}
+.contact-us .contact-despription h2{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.contact-us .contact-despription .line{
+    height: 3px;
+    width: 11%;
+    background-color: #f98837;
+    margin: 25px 579px;
+}
+.contact-us form .col-md-6{
+    padding: 0px;
+}
+.contact-us form{
+    padding: 30px;
+}
+.contact-us form input{
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    padding-top: 25px;
+}
+.contact-us form input::placeholder{
+    padding-left: 20px;
+}
+.contact-us form input:focus{
+    outline: none;
+}
+.contact-us form textarea{
+    width: 88%;
+    height: 20vh;
+    border: none;
+    
+    border-bottom: 1px solid #aaaaaa;
+    padding-top: 25px;
+}
+.contact-us .message{
+    padding-left: 78px;
+}
+.contact-us form textarea:focus{
+    outline: none;
+}
+.contact-us .btn-contact{
+    text-align: center;
+}
+.contact-us .btn-contact button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 10px 25px;
+    background-color: #f98837;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+/******************************************
+Footer Section CSS 
+********************************************/
+footer{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 30px;
+    padding:10px 0px 5px 0px;
+}
+footer .footer-menu{
+    width: 100%;
+    color: #aaaaaa;
+    text-align: center;
+}
+
+ 
+footer .footer-menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+footer .footer-menu ul li a{
+    color: #aaaaaa;
+    padding: 20px 0px 0px 0px;
+}
+footer .footer-menu ul li a:hover{
+    color: #f98837;
+}
+footer p{
+    font-size: 11px;
 }
